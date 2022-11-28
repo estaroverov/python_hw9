@@ -1,5 +1,3 @@
-import csv
-import search_data as sd
 def del_row(filename, data, index):
     output = open(filename, 'w', encoding='UTF-8')
     output.write('')
